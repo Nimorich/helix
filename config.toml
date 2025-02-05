@@ -2,7 +2,6 @@ theme = "nord-night"
 
 [editor]
 line-number = "absolute"
-line-number = "absolute"
 scroll-lines = 1
 auto-pairs = false
 mouse = true
