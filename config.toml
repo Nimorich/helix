@@ -1,16 +1,17 @@
 theme = "nord-night"
 
 [editor]
-line-number = "relative"
+line-number = "absolute"
 scroll-lines = 1
 auto-pairs = false
 mouse = true
 bufferline = "always"
+color-modes = true
 # auto-format = true
 
 [editor.cursor-shape]
 insert = "bar"
-normal = "block"
+# normal = "block"
 select = "underline"
 
 [editor.file-picker]
@@ -26,6 +27,7 @@ C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 S-A-down = ["normal_mode", "extend_to_line_bounds", "yank", "open_below", "replace_with_yanked", "collapse_selection"]
 S-A-up = ["normal_mode", "extend_to_line_bounds", "yank", "open_above", "replace_with_yanked", "collapse_selection"]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
 
 [editor.lsp]
 display-messages = true
