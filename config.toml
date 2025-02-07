@@ -7,7 +7,7 @@ auto-pairs = false
 mouse = true
 bufferline = "always"
 color-modes = true
- auto-format = true
+auto-format = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -21,20 +21,20 @@ hidden = false
 j = { k = "normal_mode" }
 
 [keys.normal]
-p = "paste_clipboard_before"
-y = "yank_main_selection_to_clipboard"
+# p = "paste_clipboard_before"
+# y = "yank_main_selection_to_clipboard"
 C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 S-A-down = ["normal_mode", "extend_to_line_bounds", "yank", "open_below", "replace_with_yanked", "collapse_selection"]
 S-A-up = ["normal_mode", "extend_to_line_bounds", "yank", "open_above", "replace_with_yanked", "collapse_selection"]
 C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
 ####################################
-j = "move_char_left"
-k = "move_visual_line_down"
-i = "move_visual_line_up"
-l = "move_char_right"
-h = "insert_mode"
-H = "insert_at_line_start"
+# j = "move_char_left"
+# k = "move_visual_line_down"
+# i = "move_visual_line_up"
+# l = "move_char_right"
+# h = "insert_mode"
+# H = "insert_at_line_start"
 
 [editor.lsp]
 display-messages = true
