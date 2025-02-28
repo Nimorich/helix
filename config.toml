@@ -1,4 +1,11 @@
-theme = "nord-night"
+theme = "iroaseta"
+# merionette,
+# vim_dark_high_contrast
+# jellybeans
+# gruvbox_dark_hard
+# iroaseta
+# starlight
+# sonokai
 
 [editor]
 line-number = "absolute"
